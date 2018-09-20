@@ -37,7 +37,7 @@ img
 {
     font-family: sans-serif;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 54px;
 }
 .header p
@@ -63,6 +63,10 @@ justify-content: center;
 
 
 
+}
+.main div
+{
+    flex-direction: row;
 }
 
 .leftside
@@ -99,9 +103,9 @@ justify-content: center;
 .leftside-item h3
 {
     font-family: sans-serif;
-    font-weight: 700;
-    font-size:24px ;
-    opacity: 0.8;
+    font-weight: 500;
+    font-size:25px ;
+    opacity: 0.9;
 }
 .item-text p
 {
@@ -256,8 +260,9 @@ justify-content: center;
     margin:0;
     font-family: sans-serif;
     font-size:18px;
+    font-weight: 200;
     line-height: 27px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
@@ -285,6 +290,8 @@ justify-content: center;
 .rightside-third-item-header h4
 {
     margin:10px 0;
+    font-weight: 200;
+    opacity: 0.9;
 }
 
 
