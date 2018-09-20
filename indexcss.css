@@ -20,7 +20,7 @@ body
 
 img
 {
-    width: 100%;
+    max-width: 100%;
 }
 .all-margin
 {
@@ -94,6 +94,7 @@ justify-content: center;
 .item-text
 {
     padding: 0px 16px;
+
 }
 .leftside-item h3
 {
