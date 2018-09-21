@@ -58,12 +58,19 @@ img
 .main
 {
     display: flex;
-justify-content: center;
-    flex-wrap: wrap;
+    justify-content: center;
 
 
 
 }
+@media only screen and (max-width: 1000px) {
+    .main {
+
+        flex-wrap: wrap;
+            }
+}
+
+
 .main div
 {
     flex-direction: row;
@@ -72,7 +79,7 @@ justify-content: center;
 .leftside
 {
     display: block;
-    max-width: 917.5px;
+    width: 917.5px;
 
 }
 .leftside img
@@ -188,6 +195,12 @@ justify-content: center;
     width: 419.828px;
 
 }
+@media only screen and (max-width:1000px) {
+    .rightside {
+        width: 100%;
+    }
+}
+
 
 
 .rightside-second-item
