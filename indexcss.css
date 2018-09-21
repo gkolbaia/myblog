@@ -8,19 +8,19 @@ body
 
 .separator-left
 {
-    width: 885.328px;
+    width: 50%;
     opacity: 0.3;
 
 }
 .separator-right
 {
-    width: 402.656px;
+    width: 24%;
     opacity: 0.3;
 }
 
 img
 {
-    max-width: 100%;
+    width: 100%;
 }
 .all-margin
 {
@@ -72,7 +72,8 @@ justify-content: center;
 .leftside
 {
     display: block;
-    max-width: 917.328px;
+    max-width: 917.5px;
+
 }
 .leftside img
 {
@@ -184,7 +185,8 @@ justify-content: center;
 {
 
 
-    max-width:434.656px;
+    width: 419.828px;
+
 }
 
 
